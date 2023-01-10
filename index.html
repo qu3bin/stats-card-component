@@ -19,37 +19,36 @@
 
 </head>
 <body>
-  <div class="container">
-    <main>
-      <section class="card-info">
-        <div class="card-header">
-          <h1>Get <span>insights</span> that help your business grow.</h1>
-          <p class="main-p">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+
+  <main class="container">
+
+    <section class="card-info">
+      <div class="card-header">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p class="main-p">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      </div>
+      <div class="card-stats">
+        <div class="individual">
+          <h2>10k+</h2>
+          <p class="stat-p">companies</p>
         </div>
-        <div class="card-stats">
-          <div>
-            <h2>10k+</h2>
-            <p class="stat-p">companies</p>
-          </div>
-          <div>
-            <h2>314</h2>
-            <p class="stat-p">templates</p>
-          </div>
-          <div>
-            <h2>12M+</h2>
-            <p class="stat-p">queries</p>
-          </div>
+        <div class="individual">
+          <h2>314</h2>
+          <p class="stat-p">templates</p>
         </div>
-      </section>
-      <section class="card-image">
-        <img class="card-desktop" src="./images/image-header-desktop.jpg" alt="header desktop image">
-        <img class="card-mobile" src="./images/image-header-mobile.jpg" alt="header mobile image">
-      </section>
-    </main>
-  </div>
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/qu3bin/stats-card-component">Kevin Douglas</a>.
-  </footer>
+        <div class="individual">
+          <h2>12M+</h2>
+          <p class="stat-p">queries</p>
+        </div>
+      </div>
+    </section>
+
+    <picture class="card-image">
+      <source class="card-mobile" media="(max-width: 720px)" srcset="images/image-header-mobile.jpg">
+      <img class="card-desktop" src="./images/image-header-desktop.jpg" alt="Image of a business meeting">
+    </picture>
+
+  </main>
+
 </body>
 </html>
